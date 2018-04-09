@@ -63,12 +63,7 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-//    if ([[[self.model objectAtIndex:indexPath.row] title] isEqualToString:@"text_out"]) {
-//        return [self heightForText:[[self.model objectAtIndex:indexPath.row] valueOfTitle] withFont:[UIFont fontWithName:@"Helvetica" size:16] andWidth:self.tableView.frame.size.width];
-//    }else{
-    
-        return 150.0f;
-    //}
+    return 150.0f;
 }
 
 - (void)callWebService{
